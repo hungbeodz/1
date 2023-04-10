@@ -37,11 +37,11 @@ var (
 		"http://yandex.ru/yandsearch?text=",
 	}
 	headersUseragents []string = []string{
-		"https://distrokid.com",
-		"htttps://www.funjaki.com",
-		"https://tuongtaccheo.com",
-		"https://traodoisub.com",
-		"https://www.shub.edu.vn",
+		"Mozilla/5.0 (compatible; MSIE 10.0; Macintosh; Intel Mac OS X 10_7_3; Trident/6.0)",
+		"Mozilla/4.0 (compatible; MSIE 5.23; Macintosh; PPC) Escape 5.1.8",
+		"Mozilla/5.0 (Linux; Android 9; Primo H8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36",
+		"Mozilla/5.0 (Linux; Android 11; LE2100) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Mobile Safari/537.36 OPR/69.0.3606.64982",
+		"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0",
 	}
 	cur int32
 )
