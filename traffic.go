@@ -34,8 +34,7 @@ var (
 		"http://www.usatoday.com/search/results?q=",
 		"http://engadget.search.aol.com/search?q=",
 		"http://www.google.ru/?hl=ru&q=",
-		"http://yandex.ru/yandsearch?text=",
-		"https://search.yahoo.com/search;_ylt="
+		"http://yandex.ru/yandsearch?text="
 	}
 	headersUseragents []string = []string{
 		"https://distrokid.com",
@@ -78,7 +77,7 @@ func main() {
 	t := os.Getenv("DRAKESMAXPROCS")
 	maxproc, err := strconv.Atoi(t)
 	if err != nil {
-		maxproc = 5000
+		maxproc = 4092
 	}
 
 	u, err := url.Parse(site)
