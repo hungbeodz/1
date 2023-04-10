@@ -34,14 +34,14 @@ var (
 		"http://www.usatoday.com/search/results?q=",
 		"http://engadget.search.aol.com/search?q=",
 		"http://www.google.ru/?hl=ru&q=",
-		"http://yandex.ru/yandsearch?text="
+		"http://yandex.ru/yandsearch?text=",
 	}
 	headersUseragents []string = []string{
 		"https://distrokid.com",
 		"htttps://www.funjaki.com",
 		"https://tuongtaccheo.com",
 		"https://traodoisub.com",
-		"https://www.shub.edu.vn"
+		"https://www.shub.edu.vn",
 	}
 	cur int32
 )
