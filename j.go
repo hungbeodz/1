@@ -1,6 +1,5 @@
 package main
 import (
-	"ipweb"
 	"flag"
 	"fmt"
 	"io/ioutil"
@@ -39,7 +38,11 @@ var (
 		"https://search.yahoo.com/search;_ylt="
 	}
 	headersUseragents []string = []string{
-		"ipweb",
+		"https://distrokid.com",
+		"htttps://www.funjaki.com",
+		"https://tuongtaccheo.com",
+		"https://traodoisub.com",
+		"https://www.shub.edu.vn"
 	}
 	cur int32
 )
